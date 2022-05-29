@@ -11,10 +11,10 @@ class Application():
         self.hp = hp
         self.atk = atk
         self.defe = defe
-        self.grid()
 
     def sethp(self, hp):
         self.hp = hp
+        self.grid()
 
     def gethp(self):
         return self.hp
